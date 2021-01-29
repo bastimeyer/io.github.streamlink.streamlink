@@ -1,0 +1,18 @@
+{
+  "id": "io.github.streamlink.streamlink",
+
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "20.08",
+  "sdk": "org.freedesktop.Sdk",
+
+  "command": "streamlink",
+
+  "finish-args": [
+    "--share=network",
+    "--filesystem=host:rw"
+  ],
+
+  "modules": [
+    "python3-streamlink.json"
+  ]
+}
